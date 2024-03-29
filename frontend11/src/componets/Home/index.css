@@ -1,0 +1,83 @@
+
+
+.container {
+    display: flex;
+    flex-direction:    row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('https://i.ibb.co/Y2qwnHT/robot.png');
+    background-size: cover;
+    height: 100%;
+  }
+
+  @media all and (max-height:300px) {
+    .container{
+     height: 150vh;
+    }
+ }
+   
+  .buttonstyles{
+    border: none;
+    background-color:  transparent;
+  }
+  
+  .moving-image-container {
+    position: relative;
+  }
+  
+  .moving-image {
+    border-radius: 30px;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: moveImage 5s linear infinite;  
+  }
+  
+  
+  @keyframes moveImage {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);  
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+
+  .heading{
+    color: rgb(238, 244, 249);
+    font-size: 30px;
+    text-decoration:underline;
+  }
+  .ulelements{
+    list-style-type:  none
+  }
+
+  .licontuaner{
+    display: flex;
+    flex-direction: column;
+    justify-content:  flex-start;
+    align-items:  flex-start;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    height: 100%;
+    background-size: cover;
+    margin: 50px;
+  }
+  .containerofdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:  center;
+    width: 270px;
+  }
+  .icon-values{
+    color: brown;
+    height: 30px;
+    width: 30px;
+  }
+
+   

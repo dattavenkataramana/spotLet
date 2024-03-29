@@ -1,0 +1,63 @@
+.App {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: navy;
+    height: 100vh;
+    background-size: cover;
+    width:100%;
+  }
+  .formcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:   center;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+  
+  }
+  .action{
+    display: flex;
+    justify-content:  flex-start;
+    flex-direction: column;
+    align-items:  flex-start;
+  }
+  
+  .lable{
+    color: blue;
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+  .input{
+    height: 30px;
+    width: 270px;
+    margin-bottom: 10px;
+  }
+  .button{
+    background-color: rgb(26, 235, 22);
+    color:   #da28aa;
+    height: 40px;
+    width: 270px;
+    border: none;
+    border-radius: 10px;
+     
+  }
+  .buttons{
+    background-color: rgb(187, 26, 165);
+    color: aqua;
+    height: 40px;
+    width: 270px;
+    border: none;
+    border-radius: 10px;
+     
+  }
+  .para{
+    color: rgb(243, 9, 48);
+  }
+  
+  
